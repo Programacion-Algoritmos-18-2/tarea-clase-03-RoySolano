@@ -10,8 +10,8 @@ package herencias3;
  *
  * @author reroes
  */
-public class Estudiante extends Persona{
-    private double matricula;
+public class Estudiante extends Persona{// Estudiante hereda atributos de Persona
+    private double matricula;//atributo específico de Estudiante
     
     public Estudiante(String n, String a, int e, double mat){
         super(n, a, e);
